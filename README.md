@@ -4,6 +4,10 @@ adapted from [Software Carpentry](http://software-carpentry.org/)
 This example data analysis project analyzes the word count for all words in 4
 novels. It reports the top 10 most occurring words in each book in a [report](doc/count_report.qmd).
 
+## About this project
+
+This repository was completed as part of DSCI 522: Data Science Workflows (Fall 2025) by Claire Saunders as a graduate assignment. It demonstrates how to build and automate a reproducible data analysis pipeline, manage project dependencies, generate a report, and use GNU Make to define and run end-to-end workflow steps in a clean, repeatable way. It is shared publicly to showcase learning and skill development in data science workflows.
+
 ---
 
 ## Recreate the computational environment
@@ -98,7 +102,7 @@ when you type `make clean`.
 
 ---
 
-### Depenedencies
+### Dependencies
 - GNU Make
 - Quarto
 - Python & Python libraries:
